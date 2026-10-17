@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source": "https://github.com/cvg/LightGlue",
+  "revision": "eb42fee2d71449efb0aa5c10549752b5d75384d8",
+  "image_size": 480,
+  "keypoints": 256,
+  "descriptor_size": 128,
+  "opset": 17,
+  "extractor": "aliked-n16",
+  "matcher": "aliked-lightglue",
+  "files": {
+    "aliked.onnx": "8494aacb1aa8599300ffa70b7ee4b68fa0f702405c2580d24eae24a013718de9",
+    "lightglue.onnx": "add7fb151d42a139f29bf7275513b620b1854cb124c44d892109e12d64f62824"
+  },
+  "matcher_output": "log_assignment",
+  "runtime": "onnxruntime-android:1.20.0",
+  "validation": "DCN, extraction, identity and translated-query matching parity passed"
+}

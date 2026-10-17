@@ -1,0 +1,9 @@
+# Desktop reference environment; select the appropriate PyTorch CPU/CUDA wheel.
+numpy==1.26.4
+opencv-python==4.11.0.86
+torch==2.5.1
+torchvision==0.20.1
+kornia==0.7.4
+kornia-rs==0.1.7
+lightglue @ git+https://github.com/cvg/LightGlue.git@eb42fee2d71449efb0aa5c10549752b5d75384d8
+pytest>=8,<9

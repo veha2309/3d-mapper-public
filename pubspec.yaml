@@ -1,0 +1,22 @@
+name: three_d_mapper
+description: Offline georeferenced capture planning and X4 panorama organization.
+publish_to: none
+version: 0.9.3+12
+environment:
+  sdk: ^3.13.4
+dependencies:
+  flutter:
+    sdk: flutter
+  file_picker: ^10.3.10
+  path_provider: ^2.1.5
+  path: ^1.9.1
+  archive: ^4.0.7
+  image: ^4.12.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true
+  shaders:
+    - shaders/panorama.frag
